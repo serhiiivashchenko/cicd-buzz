@@ -17,7 +17,7 @@ def generate_buzz():
 @app.route("/sergey")
 def show_sergey():
     page = '<html><body><h1>'
-    page += 'Designed by Sergey'
+    page += 'Designed by Serhii'
     page += '</h1></body></html>'
     return page
 
